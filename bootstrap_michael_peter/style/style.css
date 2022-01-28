@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background-color: #f8f9fa;
+}
+
+footer {
+    background-color: darkslategrey;
+    padding: 20px 0;
+    color: white;
+    margin-top: 40px;
+}
+
+.col-3 img {
+    height: 350px;
+    border-radius: 20%;
+}
+.textointro {
+    font-family: 'Titillium Web';
+    font-size: 22px;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 600px;
+}
+
+.cartas {
+    color: white;
+}

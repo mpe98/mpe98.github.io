@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <!--Al inicio de la web usare un navbar-->
+    <div class="d-flex justify-content-center">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="https://github.com/mpe98" target="_blank">
+                    <img src="./imagenes/logogithub.png" alt="" width="30" class="d-inline-block align-text-top">
+                    @mpe98
+                </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#quiensoy">¿Quién soy?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#fotos">Fotos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#experiencia">Experiencia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#contacto">Contacto</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--Introducción-->
+    <div class="container my-5 p-4">
+        <div class="row textointro text-center" id="quiensoy">
+            <div class="row">
+                <div class="col-3 col-md-12 mb-5">
+                    <img src="./imagenes/IMG_20210629_104804.jpg" alt="yo">
+                </div>
+            </div>
+            <div class="col-12 col-md-12 align-self-center">
+                <h1>MICHAEL PETER</h1><hr>
+                <h4>FUTURO DESARROLLADOR WEB</h4>
+                <br>
+            </div>
+            <div class="col-12 col-md-12 align-self-center">
+                <h3>¡Hey! Mi nombre es Michael. <br> Un estudiante más en el mundo del desarrollo web. <br> Tengo 23 años, soy de Madrid, me apasiona el mundo de la informática y tengo conocimientos turísticos, que es lo que estudié anteriormente.
+                </h3>
+            </div>
+        </div>
+        <hr>
+
+    <!--Carrusel-->
+        <div class="container" id="fotos">
+            <div class="row d-flex justify-content-center">
+                <div class="col-10 text-center">
+                    <h1>FOTOS</h1><br>
+                </div>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide px-4 mb-5" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./imagenes/IMG-20190117-WA0012.jpg" class="d-block w-100" alt="Primera imagen haciendo de guía turístico.">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagenes/IMG-20190117-WA0000.jpg" class="d-block w-100" alt="Segunda imagen haciendo de guía turístico.">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagenes/IMG-20190117-WA0001.jpg" class="d-block w-100" alt="Tercera imagen haciendo de guía turístico.">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <hr>
+
+        <!--Experiencia-->
+        <div class="container" id="experiencia">
+            <div class="row d-flex justify-content-center">
+                <div class="col-10 text-center">
+                    <h1>EXPERIENCIA</h1><br>
+                </div>
+            </div>
+            <div class="row cartas mb-5">
+                <div class="col-4 text-center">
+                    <div class="card bg-secondary bg-gradient">
+                        <h2>Sanidad</h2>
+                        <h4>Celador&#10004;</h4>
+                        <h4>Auxiliar de control&#10004;</h4>
+                        <h4>Auxiliar de servicios&#10004;</h4>
+                    </div>
+                </div>
+                <div class="col-4 text-center">
+                    <div class="card bg-secondary bg-gradient">
+                        <h2>Informática</h2>
+                        <h4>HTML&#10004;</h4>
+                        <h4>CSS&#10004;</h4>
+                        <h4>Bootstrap&#10004;</h4>
+                        <h4>XML&#10004;</h4>
+                        <h4>Java&#10004;</h4>
+                        <h4>PostgreSQL&#10004;</h4>
+                        <h4>Git&#10004;</h4>
+                        <h4>Máquinas virtuales&#10004;</h4>
+                    </div>
+                </div>
+                <div class="col-4 text-center">
+                    <div class="card bg-secondary bg-gradient">
+                        <h2>Turismo</h2>
+                        <h4>Guía turístico&#10004;</h4>
+                        <h4>Agente de viajes&#10004;</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+    <!--Formulario de contacto-->
+        <div class="container px-4 mb-5" id="contacto">
+            <div class="row d-flex justify-content-center">
+                <div class="col-10 text-center">
+                    <h1>CONTACTO</h1>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Escribe tu comentario</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-secondary">¡Enviar!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer>
+        <div class="container text-center">
+            <p>&copy;2022 Portfolio - Michael Peter</p>
+        </div>
+    </footer>
+    <!--Añado este script, aunque sea de JavaScript y no lo pidan, para que funcione el carrusel correctamente.-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
